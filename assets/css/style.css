@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(135, 190, 180);
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(44, 44, 44);
+}
+  
+li.nav {
+  float: left;
+  border-right: 5px solid rgb(135, 190, 180);
+}
+  
+li.nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li.nav a:hover {
+  background-color:rgb(80, 32, 0);
+}
+textarea{
+  width: 800px;
+  height: 700px;
+  background-color: rgb(190, 220, 210);
+  border: 5px solid rgb(44, 44, 44);
+  margin: 10px;
+  margin-left: 100px;
+}
