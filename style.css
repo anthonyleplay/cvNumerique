@@ -12,9 +12,7 @@ body, html {
 #header-box{
   width: 100%;
   height: 3.5rem;
-  background-color: rgb(0, 140, 255);
   margin: 0 auto;
-
 }
 
 #box-nav{
@@ -40,22 +38,22 @@ body, html {
   display: inline-block;
   width: 8%;
   background-color: rgb(0, 0, 0);
-  color: rgb(40, 170, 0);
+  color: #b9cfe0;
   text-decoration: none;
   text-align: center;
   padding: 1rem 1rem;
-  border-bottom: 5px solid rgb(11, 48, 0);
+  border-bottom: 5px solid #423b8c;
 }
   
 #main-nav a:hover{
   color: rgb(0, 0, 0);
-  text-shadow: 0 0 1px rgb(40, 170, 0),0 0 5px rgb(255, 255, 255), 0 0 10px rgb(0, 255, 0), 0 0 15px rgb(40, 170, 0), 0 0 20px rgb(40, 170, 0), 0 0 25px rgb(40, 170, 0), 0 0 30px rgb(40, 170, 0), 0 0 35px rgb(40, 170, 0);
-  border-bottom: 5px solid rgb(40, 170, 0);
+  text-shadow: 0 0 1px #2e176a,0 0 5px rgb(255, 255, 255), 0 0 10px #2e176a, 0 0 15px #2e176a, 0 0 20px #ecf6f9, 0 0 25px #ecf6f9, 0 0 30px #ecf6f9, 0 0 35px #2e176a;
+  border-bottom: 5px solid #b9cfe0;
 }
 
 /* =============================================== milieu body-box */
 .espace{
-  background-image: url('assets/image/carbone.jpg');
+  background-image: url('assets/image/etoile.jpg');
   height: 10rem;
   background-attachment: fixed;
   background-position: center;
@@ -64,7 +62,7 @@ body, html {
 }
 #body-box{
   width: 100%;
-  background-color: rgba(255, 186, 38, 0.404);
+  background-color: rgb(0, 0, 0);
   margin: 0 auto;
   text-align: center;
 }
@@ -73,49 +71,61 @@ body, html {
   display: inline-block;
   height: 500px;
   width: 70%;
-  border: 5px solid rgb(59, 31, 31);
+  margin: 4rem;
+  background-color: #8e89a3;
+  border: 5px solid #423b8c;
   text-align: center
 }
 #aboutme{
   display: inline-block;
   height: 500px;
   width: 70%;
-  border: 5px solid rgb(59, 31, 31);
+  margin: 4rem;
+  background-color: #8e89a3;
+  border: 5px solid #423b8c;
   text-align: center
 }
 #skills{
   display: inline-block;
   height: 500px;
   width: 70%;
-  border: 5px solid rgb(59, 31, 31);
+  margin: 4rem;
+  background-color: #8e89a3;
+  border: 5px solid #423b8c;
   text-align: center
 }
 #formation{
   display: inline-block;
   height: 500px;
   width: 70%;
-  border: 5px solid rgb(59, 31, 31);
+  margin: 4rem;
+  background-color: #8e89a3;
+  border: 5px solid #423b8c;
   text-align: center
 }
 #experience{
   display: inline-block;
   height: 500px;
   width: 70%;
-  border: 5px solid rgb(59, 31, 31);
+  margin: 4rem;
+  background-color: #8e89a3;
+  border: 5px solid #423b8c;
   text-align: center
 }
 
 /* ============================================== bas foot-box */
 #foot-box{
   width: 100%;
-  background-color: rgba(107, 255, 114, 0.479);
+  background-color: rgb(0, 0, 0);
   margin: 0 auto;
   text-align: center;
 }
 .contact{
   display: inline-block;
-  height: 500px;
+  height: 50rem;
   width: 70%;
-  border: 5px solid rgb(59, 31, 31);
+  margin: 4rem;
+  background-color: rgb(109, 109, 109);
+  border: 5px solid #423b8c;
   text-align: center
 }
