@@ -1,6 +1,6 @@
 body, html {
   background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  color: #040f16;
   font-family: 'Roboto', sans-serif;
   font-variant: small-caps;
   margin: 0;
@@ -13,6 +13,7 @@ body, html {
   width: 100%;
   height: 3.5rem;
   margin: 0 auto;
+
 }
 
 #box-nav{
@@ -20,7 +21,8 @@ body, html {
   margin-top: 0;
   margin: 0;
   padding: 0;
-  background-color: rgb(0, 0, 0);
+  z-index: 10;
+  background-color: #040f16;
   display: inline-block;
   overflow: hidden;
   position: fixed;
@@ -36,96 +38,134 @@ body, html {
   
 #main-nav a{
   display: inline-block;
-  width: 8%;
-  background-color: rgb(0, 0, 0);
-  color: #b9cfe0;
+  background-color: #040f16;
+  color: #fbfbff;
   text-decoration: none;
   text-align: center;
   padding: 1rem 1rem;
-  border-bottom: 5px solid #423b8c;
+  border-bottom: 5px solid #0b4f6c;
 }
   
 #main-nav a:hover{
-  color: rgb(0, 0, 0);
-  text-shadow: 0 0 1px #2e176a,0 0 5px rgb(255, 255, 255), 0 0 10px #2e176a, 0 0 15px #2e176a, 0 0 20px #ecf6f9, 0 0 25px #ecf6f9, 0 0 30px #ecf6f9, 0 0 35px #2e176a;
-  border-bottom: 5px solid #b9cfe0;
+  color: #040f16;
+  text-shadow: 0 0 1px #01baef,0 0 5px rgb(255, 255, 255), 0 0 10px #01baef, 0 0 15px #01baef, 0 0 20px #57c5e4, 0 0 25px #57c5e4, 0 0 30px #57c5e4, 0 0 35px #01baef;
+  border-bottom: 5px solid #01baef;
 }
-
+.text-color{
+  color: #01baef;
+  font-weight: bold;
+}
+#main-nav a:hover .text-color{
+  color: #0b4f6c;
+  font-weight: bold;
+}
+#pin-skills{
+  position: relative;
+  top: 22rem;
+}
 /* =============================================== milieu body-box */
-.espace{
+
+.espace-parralax{
   background-image: url('assets/image/etoile.jpg');
-  height: 10rem;
+  height: 30rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
 }
+#espace-contact{
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  height: 15rem;
+  background-color: #3c4859;
+}
+.espace{
+  height: 8rem;
+
+}
+
 #body-box{
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  background-color: #3c4859;
   margin: 0 auto;
   text-align: center;
 }
 
 #titre{
   display: inline-block;
-  height: 500px;
+  height: 40rem;
   width: 70%;
-  margin: 4rem;
-  background-color: #8e89a3;
-  border: 5px solid #423b8c;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
   text-align: center
 }
 #aboutme{
   display: inline-block;
-  height: 500px;
+  height: 40rem;
   width: 70%;
-  margin: 4rem;
-  background-color: #8e89a3;
-  border: 5px solid #423b8c;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
   text-align: center
 }
 #skills{
   display: inline-block;
-  height: 500px;
+  height: 40rem;
   width: 70%;
-  margin: 4rem;
-  background-color: #8e89a3;
-  border: 5px solid #423b8c;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
   text-align: center
 }
 #formation{
   display: inline-block;
-  height: 500px;
+  height: 40rem;
   width: 70%;
-  margin: 4rem;
-  background-color: #8e89a3;
-  border: 5px solid #423b8c;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
   text-align: center
 }
 #experience{
   display: inline-block;
-  height: 500px;
+  height: 40rem;
   width: 70%;
-  margin: 4rem;
-  background-color: #8e89a3;
-  border: 5px solid #423b8c;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+  background-color: #EEF;
+  border-radius: 2rem;
   text-align: center
+}
+#pin-contact{
+  position: relative;
+  top: 22rem;
 }
 
 /* ============================================== bas foot-box */
 #foot-box{
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  height: 80rem;
+  background-color: #040f16;
   margin: 0 auto;
   text-align: center;
 }
 .contact{
   display: inline-block;
-  height: 50rem;
+  position: relative;
+  top: 15rem;
+  height: 40rem;
   width: 70%;
-  margin: 4rem;
-  background-color: rgb(109, 109, 109);
-  border: 5px solid #423b8c;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+  background-color: #848aa72d;
+  color: #fbfbff;
+  border-radius: 2rem;
   text-align: center
 }
