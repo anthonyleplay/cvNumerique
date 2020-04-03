@@ -11,7 +11,7 @@ body, html {
 /* =============================================== en tete header-box */
 #header-box{
   width: 100%;
-  height: 3rem;
+  height: 0;
   background-color: #040f16;
   margin: 0 auto;
 
@@ -30,7 +30,7 @@ body, html {
 }
 
 #main-nav{
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   padding: 0px;
   text-align: center;
@@ -39,7 +39,6 @@ body, html {
   
 #main-nav a{
   display: inline-block;
-  width: 10%;
   background-color: #040f16;
   color: #fbfbff;
   text-decoration: none;
@@ -47,12 +46,12 @@ body, html {
   padding: 1rem 1rem;
   border-bottom: 0.3rem solid #0b4f6c;
 }
-  
 #main-nav a:hover{
   color: #040f16;
   text-shadow: 0 0 1px #01baef,0 0 5px rgb(255, 255, 255), 0 0 10px #01baef, 0 0 15px #01baef, 0 0 20px #57c5e4, 0 0 25px #57c5e4, 0 0 30px #57c5e4, 0 0 35px #01baef;
   border-bottom: 0.3rem solid #01baef;
 }
+
 .text-color{
   color: #01baef;
   font-weight: bold;
@@ -68,7 +67,7 @@ body, html {
 /* =============================================== milieu body-box */
 
 .espace-parralax{
-  background-image: url('assets/image/matrixblue.jpg');
+  background-image: url('../image/matrixblue.jpg');
   height: 40rem;
   background-attachment: fixed;
   background-position: center;
@@ -99,7 +98,7 @@ body, html {
   height: 40rem;
   width: 70%;
   margin-bottom: 4rem;
-  margin-top: 9rem;
+  margin-top: 12rem;
   background-color: #EEF;
   border-radius: 2rem;
   text-align: center
@@ -152,7 +151,7 @@ body, html {
 /* ============================================== bas foot-box */
 #foot-box{
   width: 100%;
-  height: 95rem;
+  height: 101rem;
   background-color: #040f16;
   margin: 0 auto;
   text-align: center;
