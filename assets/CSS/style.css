@@ -64,8 +64,23 @@ body, html {
   position: relative;
   top: 37rem;
 }
-/* =============================================== milieu body-box */
-
+/* ====================================================== milieu body-box */
+#body-box{
+  width: 100%;
+  background-color: #3c4859;
+  margin: 0 auto;
+  text-align: center;
+  color: #040f16;
+}
+#body-box .text-color{
+  color: #0b4f6c;
+}
+#body-box h2{
+  color: #040f16;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+/* ============================== parallax et espace entre les paragraphe */
 .espace-parralax{
   background-image: url('../image/matrixblue.jpg');
   height: 40rem;
@@ -75,6 +90,9 @@ body, html {
   background-size: cover;
   clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
 }
+.espace{
+  height: 8rem;
+}
 #espace-contact{
   width: 100%;
   z-index: 1;
@@ -82,18 +100,8 @@ body, html {
   height: 20rem;
   background-color: #3c4859;
 }
-.espace{
-  height: 8rem;
-}
-
-#body-box{
-  width: 100%;
-  background-color: #3c4859;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#titre{
+/* ============================== titre */
+#title-box{
   display: inline-block;
   height: 40rem;
   width: 70%;
@@ -103,7 +111,25 @@ body, html {
   border-radius: 2rem;
   text-align: center
 }
-#aboutme{
+#title-photo{
+  float: left;
+  margin: 10rem;
+  margin-top: 15rem;
+  width: 10%;
+}
+#title-photo img{
+  height: 10rem;
+  width: 100%;
+}
+
+#title-text{
+  display: inline-block;
+  margin: 13rem 0;
+  font-size: 1.8rem;
+  color: #040f16;
+}
+/* ============================== presentation */
+#aboutme-box{
   display: inline-block;
   height: 40rem;
   width: 70%;
@@ -113,7 +139,8 @@ body, html {
   border-radius: 2rem;
   text-align: center
 }
-#skills{
+/* ============================== competence */
+#skills-box{
   display: inline-block;
   height: 40rem;
   width: 70%;
@@ -123,7 +150,8 @@ body, html {
   border-radius: 2rem;
   text-align: center
 }
-#formation{
+/* ============================== formation */
+#formation-box{
   display: inline-block;
   height: 40rem;
   width: 70%;
@@ -133,7 +161,8 @@ body, html {
   border-radius: 2rem;
   text-align: center
 }
-#experience{
+/* ============================== experience */
+#experience-box{
   display: inline-block;
   height: 40rem;
   width: 70%;
@@ -143,20 +172,26 @@ body, html {
   border-radius: 2rem;
   text-align: center
 }
-#pin-contact{
-  position: relative;
-  top: 37rem;
-}
-
 /* ============================================== bas foot-box */
 #foot-box{
   width: 100%;
   height: 101rem;
   background-color: #040f16;
+  color: #fbfbff;
   margin: 0 auto;
   text-align: center;
 }
-.contact{
+#pin-contact{
+  position: relative;
+  top: 37rem;
+}
+#foot-box h2{
+  color: #fbfbff;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+/* ============================== contact */
+.contact-box{
   display: inline-block;
   position: relative;
   top: 25rem;
@@ -165,7 +200,6 @@ body, html {
   margin-bottom: 6rem;
   margin-top: 4rem;
   background-color: #848aa72d;
-  color: #fbfbff;
   border-radius: 2rem;
   text-align: center
 }
