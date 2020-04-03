@@ -11,15 +11,14 @@ body, html {
 /* =============================================== en tete header-box */
 #header-box{
   width: 100%;
-  height: 3.5rem;
+  height: 3rem;
+  background-color: #040f16;
   margin: 0 auto;
 
 }
 
 #box-nav{
   width: 100%;
-  margin-top: 0;
-  margin: 0;
   padding: 0;
   z-index: 10;
   background-color: #040f16;
@@ -43,13 +42,13 @@ body, html {
   text-decoration: none;
   text-align: center;
   padding: 1rem 1rem;
-  border-bottom: 5px solid #0b4f6c;
+  border-bottom: 0.3rem solid #0b4f6c;
 }
   
 #main-nav a:hover{
   color: #040f16;
   text-shadow: 0 0 1px #01baef,0 0 5px rgb(255, 255, 255), 0 0 10px #01baef, 0 0 15px #01baef, 0 0 20px #57c5e4, 0 0 25px #57c5e4, 0 0 30px #57c5e4, 0 0 35px #01baef;
-  border-bottom: 5px solid #01baef;
+  border-bottom: 0.3rem solid #01baef;
 }
 .text-color{
   color: #01baef;
@@ -61,13 +60,13 @@ body, html {
 }
 #pin-skills{
   position: relative;
-  top: 22rem;
+  top: 37rem;
 }
 /* =============================================== milieu body-box */
 
 .espace-parralax{
-  background-image: url('assets/image/etoile.jpg');
-  height: 30rem;
+  background-image: url('assets/image/matrixblue.jpg');
+  height: 40rem;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,12 +77,11 @@ body, html {
   width: 100%;
   z-index: 1;
   position: relative;
-  height: 15rem;
+  height: 20rem;
   background-color: #3c4859;
 }
 .espace{
   height: 8rem;
-
 }
 
 #body-box{
@@ -98,7 +96,7 @@ body, html {
   height: 40rem;
   width: 70%;
   margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-top: 9rem;
   background-color: #EEF;
   border-radius: 2rem;
   text-align: center
@@ -118,7 +116,7 @@ body, html {
   height: 40rem;
   width: 70%;
   margin-bottom: 4rem;
-  margin-top: 4rem;
+  margin-top: 9rem;
   background-color: #EEF;
   border-radius: 2rem;
   text-align: center
@@ -145,13 +143,13 @@ body, html {
 }
 #pin-contact{
   position: relative;
-  top: 22rem;
+  top: 37rem;
 }
 
 /* ============================================== bas foot-box */
 #foot-box{
   width: 100%;
-  height: 80rem;
+  height: 95rem;
   background-color: #040f16;
   margin: 0 auto;
   text-align: center;
@@ -159,7 +157,7 @@ body, html {
 .contact{
   display: inline-block;
   position: relative;
-  top: 15rem;
+  top: 25rem;
   height: 40rem;
   width: 70%;
   margin-bottom: 6rem;
