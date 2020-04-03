@@ -15,20 +15,22 @@ body, html {
   background-color: #040f16;
   margin: 0 auto;
 
+
 }
 
 #box-nav{
   width: 100%;
   padding: 0;
-  z-index: 10;
   background-color: #040f16;
   display: inline-block;
   overflow: hidden;
   position: fixed;
+  z-index: 10;
+  text-align: center;
 }
 
 #main-nav{
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   padding: 0px;
   text-align: center;
@@ -37,6 +39,7 @@ body, html {
   
 #main-nav a{
   display: inline-block;
+  width: 10%;
   background-color: #040f16;
   color: #fbfbff;
   text-decoration: none;
@@ -107,7 +110,7 @@ body, html {
   width: 70%;
   margin-bottom: 4rem;
   margin-top: 4rem;
-  background-color: #EEF;
+  background-color: #eeeeff;
   border-radius: 2rem;
   text-align: center
 }
