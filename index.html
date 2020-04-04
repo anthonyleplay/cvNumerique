@@ -2,74 +2,102 @@
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CV Anthony Le Play</title>
-  <link href="assets\CSS\style.css" rel="stylesheet" type="text/css">
-  <link href="assets/image/logozewi16x16.png" rel="icon">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CV Anthony Le Play</title>
+	<link href="assets\CSS\style.css" rel="stylesheet" type="text/css">
+	<link href="assets/image/logozewi16x16.png" rel="icon">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- ================== en tete ================== -->
-  <div id="header-box">
+	<!-- ================== en tete ================== -->
+	<div id="header-box">
 
-    <!-- ================== Nav barre ================== -->
-    <div id="box-nav">
-      <div id="main-nav">
-        <a href="#header-box"><span class="text-color">A</span>ccueil</a><a 
-          href="#pin-aboutme"><span class="text-color">P</span>résentation</a><a href="#pin-skills"><span class="text-color">C</span>ompétence</a><a
-          href="#pin-formation"><span class="text-color">F</span>ormation</a><a href="#pin-experience"><span class="text-color">E</span>xperience</a><a href="#pin-contact"><span class="text-color">C</span>ontact</a>
-      </div>
-    </div>
-  </div>
-  <div id="body-box">
-    <!-- ================== Page titre ================== -->
-    <div id="title-box">
-      <div id="title-photo"><img src="assets\image\logo zewi4 bleu.png" alt="photo"></div>
-      <div id="title-text">
-        <h1><span class="text-color">A</span>nthony <span class="text-color">L</span>E <span class="text-color">P</span>LAY</h1>
-        <p>Developpeur Web / Web Mobile Junior</p>
-      </div>
-    </div>
-    <!-- ================== Page Presentation ================== -->
-    <div class="espace" id="pin-aboutme"></div>
-    <div id="aboutme-box">
-      <h2><span class="text-color">P</span>résentation</h2>
-      <p>blablabla</p>
-    </div>
-    <!-- ================== Page Competence ================== -->
-    <div class="espace-parralax">
-      <div id="pin-skills"></div>
-    </div>
-    <div id="skills-box">
-      <h2><span class="text-color">C</span>ompétence</h2>
-      <p>blablabla</p>
-    </div>
-    <!-- ================== Page Formation ================== -->
-    <div class="espace" id="pin-formation"></div>
-    <div id="formation-box">
-      <h2><span class="text-color">F</span>ormation</h2>
-      <p>blablabla</p>
-    </div>
-    <!-- ================== Page Experience ================== -->
-    <div class="espace" id="pin-experience"></div>
-    <div id="experience-box">
-      <h2><span class="text-color">E</span>xperience</h2>
-      <p>blablabla</p>
-    </div>
-  </div>
-    <!-- ================== Page Contact ================== -->
-  <div id="foot-box">
-    <div id="espace-contact">
-    <div class="espace-parralax">
-      <div id="pin-contact"></div>
-    </div></div>
-    <div class="contact-box">
-      <h2><span class="text-color">C</span>ontact</h2>
-      <p>blablabla</p>
-    </div>
-  </div>
+		<!-- ================== Nav barre ================== -->
+		<div id="box-nav">
+			<div id="main-nav">
+				<ul>
+					<li class="active"><a href="#header-box"><span class="text-color">A</span>ccueil</a>
+					<li><a href="#pin-aboutme"><span class="text-color">P</span>résentation</a>
+					<li><a href="#pin-skills"><span class="text-color">C</span>ompétence</a>
+					<li><a href="#pin-formation"><span class="text-color">F</span>ormation</a>
+					<li><a href="#pin-experience"><span class="text-color">E</span>xperience</a>
+					<li><a href="#pin-contact"><span class="text-color">C</span>ontact</a>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="body-box">
+		<!-- ================== Page titre ================== -->
+		<div id="title-box">
+			<div id="title-photo"><img src="assets\image\logo zewi4 bleu.png" alt="photo"></div>
+			<div id="title-text">
+				<h1><span class="text-color">A</span>nthony <span class="text-color">L</span>E <span class="text-color">P</span>LAY</h1>
+				<p>Developpeur Web / Web Mobile Junior</p>
+			</div>
+		</div>
+		<!-- ================== Page Presentation ================== -->
+		<div class="espace" id="pin-aboutme"></div>
+		<div id="aboutme-box">
+			<h2><span class="text-color">P</span>résentation</h2>
+			<p>blablabla</p>
+		</div>
+		<!-- ================== Page Competence ================== -->
+		<div class="espace-parralax">
+			<div id="pin-skills"></div>
+		</div>
+		<div id="skills-box">
+			<h2><span class="text-color">C</span>ompétence</h2>
+			<div class="skills-colomn">
+				<!-- ================================================ HTML ========= -->
+				<div class="skills-language">
+					<div class="skills-language-titre"><div class="skills-language-icon"><img src="assets\image\HTML32x32.png" alt="icon-HTML"></div>html</div>
+					<div class="skills-language-progress-bar">
+						<div class="skills-language-progress" style="width: 50%;">50%</div>
+					</div>
+				</div>
+				<!-- ================================================ CSS ========= -->
+				<div class="skills-language">
+					<div class="skills-language-titre"><div class="skills-language-icon"><img src="assets\image\CSS32x32.png" alt="icon-HTML"></div>css</div>
+					<div class="skills-language-progress-bar">
+						<div class="skills-language-progress" style="width: 50%;">50%</div>
+					</div>
+				</div>
+				<!-- ================================================ Javascript ========= -->
+				<div class="skills-language">
+					<div class="skills-language-titre"><div class="skills-language-icon"><img src="assets\image\JS32x32.png" alt="icon-HTML"></div>JavaScript</div>
+					<div class="skills-language-progress-bar">
+						<div class="skills-language-progress" style="width: 5%;">5%</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<!-- ================== Page Formation ================== -->
+		<div class="espace" id="pin-formation"></div>
+		<div id="formation-box">
+			<h2><span class="text-color">F</span>ormation</h2>
+			<p>blablabla</p>
+		</div>
+		<!-- ================== Page Experience ================== -->
+		<div class="espace" id="pin-experience"></div>
+		<div id="experience-box">
+			<h2><span class="text-color">E</span>xperience</h2>
+			<p>blablabla</p>
+		</div>
+	</div>
+		<!-- ================== Page Contact ================== -->
+	<div id="foot-box">
+		<div id="espace-contact">
+		<div class="espace-parralax">
+			<div id="pin-contact"></div>
+		</div></div>
+		<div class="contact-box">
+			<h2><span class="text-color">C</span>ontact</h2>
+			<p>blablabla</p>
+		</div>
+	</div>
 </body>
-
 </html>
