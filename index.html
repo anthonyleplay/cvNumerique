@@ -18,7 +18,7 @@
 		<div id="box-nav">
 			<div id="main-nav">
 				<ul>
-					<li class="active"><a href="#header-box"><span class="text-color">A</span>ccueil</a>
+					<li><a href="#header-box"><span class="text-color">A</span>ccueil</a>
 					<li><a href="#pin-aboutme"><span class="text-color">P</span>résentation</a>
 					<li><a href="#pin-skills"><span class="text-color">C</span>ompétence</a>
 					<li><a href="#pin-formation"><span class="text-color">F</span>ormation</a>
@@ -38,18 +38,18 @@
 			</div>
 		</div>
 		<!-- ================== Page Presentation ================== -->
-		<div class="espace" id="pin-aboutme"></div>
+		<div class="espace" id="pin-aboutme"></div><!-- espace  -->
 		<div id="aboutme-box">
 			<h2><span class="text-color">P</span>résentation</h2>
 			<p>blablabla</p>
 		</div>
 		<!-- ================== Page Competence ================== -->
-		<div class="espace-parralax">
+		<div class="espace-parralax"><!-- espace  -->
 			<div id="pin-skills"></div>
 		</div>
 		<div id="skills-box">
-			<h2><span class="text-color">C</span>ompétence</h2>
-			<div class="skills-colomn">
+			<h2><span class="text-color">C</span>ompétences</h2>
+			<div class="skills-column">
 				<!-- ================================================ HTML ========= -->
 				<div class="skills-language">
 					<div class="skills-language-titre"><div class="skills-language-icon"><img src="assets\image\HTML32x32.png" alt="icon-HTML"></div>html</div>
@@ -61,7 +61,7 @@
 				<div class="skills-language">
 					<div class="skills-language-titre"><div class="skills-language-icon"><img src="assets\image\CSS32x32.png" alt="icon-HTML"></div>css</div>
 					<div class="skills-language-progress-bar">
-						<div class="skills-language-progress" style="width: 50%;">50%</div>
+						<div class="skills-language-progress" style="width: 70%;">70%</div>
 					</div>
 				</div>
 				<!-- ================================================ Javascript ========= -->
@@ -71,18 +71,16 @@
 						<div class="skills-language-progress" style="width: 5%;">5%</div>
 					</div>
 				</div>
-
 			</div>
-
 		</div>
 		<!-- ================== Page Formation ================== -->
-		<div class="espace" id="pin-formation"></div>
+		<div class="espace" id="pin-formation"></div><!-- espace  -->
 		<div id="formation-box">
 			<h2><span class="text-color">F</span>ormation</h2>
 			<p>blablabla</p>
 		</div>
 		<!-- ================== Page Experience ================== -->
-		<div class="espace" id="pin-experience"></div>
+		<div class="espace" id="pin-experience"></div><!-- espace  -->
 		<div id="experience-box">
 			<h2><span class="text-color">E</span>xperience</h2>
 			<p>blablabla</p>
@@ -90,13 +88,42 @@
 	</div>
 		<!-- ================== Page Contact ================== -->
 	<div id="foot-box">
-		<div id="espace-contact">
-		<div class="espace-parralax">
-			<div id="pin-contact"></div>
-		</div></div>
+		<div id="espace-contact"><!-- espace  -->
+			<div class="espace-parralax">
+				<div id="pin-contact"></div>
+			</div>
+		</div>
 		<div class="contact-box">
 			<h2><span class="text-color">C</span>ontact</h2>
-			<p>blablabla</p>
+			<div class="contact-column" style="border-left: 0rem;">
+				<div id="contact-block-formulaire">
+					<form>
+						<div id="contact-block-formulaire-name">
+							<label for="name">Votre Nom :</label><br>
+							<input type="text" id="name" size="40" name="name" placeholder="EX: Jean DUPOND" required>
+						</div>
+						<div id="contact-block-formulaire-mail">
+							<label for="mail">Votre Email :</label><br>
+							<input type="email" id="mail" size="40" name="mail" placeholder="EX: abc@gmail.com" required>
+						</div>
+						<div id="contact-block-formulaire-message">
+							<label for="message">Votre Message :</label><br>
+							<textarea type="text" cols="70" rows="10" id="message" name="message" placeholder="Message" required></textarea>
+						</div>
+						<input type="submit" value="Envoyer le message">
+					</form>
+				</div>
+			</div><div class="contact-column" style="border-right: 0rem;">
+				<div>
+
+				</div>
+			</div>
+			<div id="contact-box-foot">
+				<div id="contact-box-foot-text">Anthony Le Play</div>
+				<div id="button-up-page">
+					<a href="#header-box">▲</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
